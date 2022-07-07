@@ -40,3 +40,12 @@
   text-align: center;
   margin-top: 50px;
 }
+
+.Card__block {
+  max-width: 442px;
+  background: #68c9ba;
+  opacity: 0.2;
+  border-radius: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
