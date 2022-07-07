@@ -159,6 +159,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
+    height: 300px;
   }
   .Left__info {
     margin-left: 3%;
@@ -168,13 +169,8 @@
     padding: 0 20px;
   }
 
-  .Left__info h3 {
-    text-align: center;
-  }
-
   .Left__info p {
     max-width: 323px;
-    text-align: center;
   }
 
   .App__title p {
