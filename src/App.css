@@ -154,4 +154,17 @@
   .Right__info {
     display: none;
   }
+
+  .Card__block {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+  .Left__info {
+    margin-left: 33%;
+  }
+
+  .App__title p {
+    width: 302px;
+  }
 }
